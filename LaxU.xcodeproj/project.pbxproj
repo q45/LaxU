@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E458BBA014CF1D3C009B7ABB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E458BB9F14CF1D3C009B7ABB /* UIKit.framework */; };
+		E458BBA214CF1D3C009B7ABB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E458BBA114CF1D3C009B7ABB /* Foundation.framework */; };
+		E458BBA414CF1D3C009B7ABB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E458BBA314CF1D3C009B7ABB /* CoreGraphics.framework */; };
+		E458BBAA14CF1D3C009B7ABB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E458BBA814CF1D3C009B7ABB /* InfoPlist.strings */; };
+		E458BBAC14CF1D3C009B7ABB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E458BBAB14CF1D3C009B7ABB /* main.m */; };
+		E458BBB014CF1D3C009B7ABB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E458BBAF14CF1D3C009B7ABB /* AppDelegate.m */; };
+		E458BBBA14CF1DB1009B7ABB /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E458BBB914CF1DB1009B7ABB /* ListViewController.m */; };
+		E458BBBD14CF25A2009B7ABB /* RSSChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = E458BBBC14CF25A2009B7ABB /* RSSChannel.m */; };
+		E458BBC014CF2B87009B7ABB /* RSSItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E458BBBF14CF2B87009B7ABB /* RSSItem.m */; };
+		E458BBC314CF4049009B7ABB /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E458BBC214CF4049009B7ABB /* WebViewController.m */; };
+		E458BBCE14CF4CEC009B7ABB /* utahlaxnews-app-icon-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E458BBC714CF4CEB009B7ABB /* utahlaxnews-app-icon-ipad.png */; };
+		E458BBCF14CF4CEC009B7ABB /* utahlaxnews-app-icon-hires.png in Resources */ = {isa = PBXBuildFile; fileRef = E458BBC814CF4CEB009B7ABB /* utahlaxnews-app-icon-hires.png */; };
+		E458BBD014CF4CEC009B7ABB /* utlaxnews-app-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E458BBC914CF4CEB009B7ABB /* utlaxnews-app-icon.png */; };
+		E458BBD114CF4CEC009B7ABB /* utlaxnews_iphone_portrait_icon_retina.png in Resources */ = {isa = PBXBuildFile; fileRef = E458BBCA14CF4CEB009B7ABB /* utlaxnews_iphone_portrait_icon_retina.png */; };
+		E458BBD214CF4CEC009B7ABB /* utlaxnews_iphone_portrait_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E458BBCB14CF4CEB009B7ABB /* utlaxnews_iphone_portrait_icon.png */; };
+		E458BBD314CF4CEC009B7ABB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E458BBCC14CF4CEB009B7ABB /* Default@2x.png */; };
+		E458BBD414CF4CEC009B7ABB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E458BBCD14CF4CEB009B7ABB /* Default.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E458BB9B14CF1D3C009B7ABB /* LaxU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LaxU.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E458BB9F14CF1D3C009B7ABB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E458BBA114CF1D3C009B7ABB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E458BBA314CF1D3C009B7ABB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E458BBA714CF1D3C009B7ABB /* LaxU-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LaxU-Info.plist"; sourceTree = "<group>"; };
+		E458BBA914CF1D3C009B7ABB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E458BBAB14CF1D3C009B7ABB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E458BBAD14CF1D3C009B7ABB /* LaxU-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LaxU-Prefix.pch"; sourceTree = "<group>"; };
+		E458BBAE14CF1D3C009B7ABB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E458BBAF14CF1D3C009B7ABB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E458BBB814CF1DB1009B7ABB /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		E458BBB914CF1DB1009B7ABB /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		E458BBBB14CF25A2009B7ABB /* RSSChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSChannel.h; sourceTree = "<group>"; };
+		E458BBBC14CF25A2009B7ABB /* RSSChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSChannel.m; sourceTree = "<group>"; };
+		E458BBBE14CF2B87009B7ABB /* RSSItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSItem.h; sourceTree = "<group>"; };
+		E458BBBF14CF2B87009B7ABB /* RSSItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSItem.m; sourceTree = "<group>"; };
+		E458BBC114CF4049009B7ABB /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		E458BBC214CF4049009B7ABB /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		E458BBC714CF4CEB009B7ABB /* utahlaxnews-app-icon-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "utahlaxnews-app-icon-ipad.png"; sourceTree = "<group>"; };
+		E458BBC814CF4CEB009B7ABB /* utahlaxnews-app-icon-hires.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "utahlaxnews-app-icon-hires.png"; sourceTree = "<group>"; };
+		E458BBC914CF4CEB009B7ABB /* utlaxnews-app-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "utlaxnews-app-icon.png"; sourceTree = "<group>"; };
+		E458BBCA14CF4CEB009B7ABB /* utlaxnews_iphone_portrait_icon_retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = utlaxnews_iphone_portrait_icon_retina.png; sourceTree = "<group>"; };
+		E458BBCB14CF4CEB009B7ABB /* utlaxnews_iphone_portrait_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = utlaxnews_iphone_portrait_icon.png; sourceTree = "<group>"; };
+		E458BBCC14CF4CEB009B7ABB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		E458BBCD14CF4CEB009B7ABB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E458BB9814CF1D3C009B7ABB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E458BBA014CF1D3C009B7ABB /* UIKit.framework in Frameworks */,
+				E458BBA214CF1D3C009B7ABB /* Foundation.framework in Frameworks */,
+				E458BBA414CF1D3C009B7ABB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E458BB9014CF1D3B009B7ABB = {
+			isa = PBXGroup;
+			children = (
+				E458BBB814CF1DB1009B7ABB /* ListViewController.h */,
+				E458BBB914CF1DB1009B7ABB /* ListViewController.m */,
+				E458BBBE14CF2B87009B7ABB /* RSSItem.h */,
+				E458BBBF14CF2B87009B7ABB /* RSSItem.m */,
+				E458BBBB14CF25A2009B7ABB /* RSSChannel.h */,
+				E458BBBC14CF25A2009B7ABB /* RSSChannel.m */,
+				E458BBA514CF1D3C009B7ABB /* LaxU */,
+				E458BB9E14CF1D3C009B7ABB /* Frameworks */,
+				E458BB9C14CF1D3C009B7ABB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E458BB9C14CF1D3C009B7ABB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E458BB9B14CF1D3C009B7ABB /* LaxU.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E458BB9E14CF1D3C009B7ABB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E458BB9F14CF1D3C009B7ABB /* UIKit.framework */,
+				E458BBA114CF1D3C009B7ABB /* Foundation.framework */,
+				E458BBA314CF1D3C009B7ABB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E458BBA514CF1D3C009B7ABB /* LaxU */ = {
+			isa = PBXGroup;
+			children = (
+				E458BBC714CF4CEB009B7ABB /* utahlaxnews-app-icon-ipad.png */,
+				E458BBC814CF4CEB009B7ABB /* utahlaxnews-app-icon-hires.png */,
+				E458BBC914CF4CEB009B7ABB /* utlaxnews-app-icon.png */,
+				E458BBCA14CF4CEB009B7ABB /* utlaxnews_iphone_portrait_icon_retina.png */,
+				E458BBCB14CF4CEB009B7ABB /* utlaxnews_iphone_portrait_icon.png */,
+				E458BBCC14CF4CEB009B7ABB /* Default@2x.png */,
+				E458BBCD14CF4CEB009B7ABB /* Default.png */,
+				E458BBAE14CF1D3C009B7ABB /* AppDelegate.h */,
+				E458BBAF14CF1D3C009B7ABB /* AppDelegate.m */,
+				E458BBC114CF4049009B7ABB /* WebViewController.h */,
+				E458BBC214CF4049009B7ABB /* WebViewController.m */,
+				E458BBA614CF1D3C009B7ABB /* Supporting Files */,
+			);
+			path = LaxU;
+			sourceTree = "<group>";
+		};
+		E458BBA614CF1D3C009B7ABB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E458BBA714CF1D3C009B7ABB /* LaxU-Info.plist */,
+				E458BBA814CF1D3C009B7ABB /* InfoPlist.strings */,
+				E458BBAB14CF1D3C009B7ABB /* main.m */,
+				E458BBAD14CF1D3C009B7ABB /* LaxU-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E458BB9A14CF1D3C009B7ABB /* LaxU */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E458BBB314CF1D3C009B7ABB /* Build configuration list for PBXNativeTarget "LaxU" */;
+			buildPhases = (
+				E458BB9714CF1D3C009B7ABB /* Sources */,
+				E458BB9814CF1D3C009B7ABB /* Frameworks */,
+				E458BB9914CF1D3C009B7ABB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LaxU;
+			productName = LaxU;
+			productReference = E458BB9B14CF1D3C009B7ABB /* LaxU.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E458BB9214CF1D3B009B7ABB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = E458BB9514CF1D3B009B7ABB /* Build configuration list for PBXProject "LaxU" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E458BB9014CF1D3B009B7ABB;
+			productRefGroup = E458BB9C14CF1D3C009B7ABB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E458BB9A14CF1D3C009B7ABB /* LaxU */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E458BB9914CF1D3C009B7ABB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E458BBAA14CF1D3C009B7ABB /* InfoPlist.strings in Resources */,
+				E458BBCE14CF4CEC009B7ABB /* utahlaxnews-app-icon-ipad.png in Resources */,
+				E458BBCF14CF4CEC009B7ABB /* utahlaxnews-app-icon-hires.png in Resources */,
+				E458BBD014CF4CEC009B7ABB /* utlaxnews-app-icon.png in Resources */,
+				E458BBD114CF4CEC009B7ABB /* utlaxnews_iphone_portrait_icon_retina.png in Resources */,
+				E458BBD214CF4CEC009B7ABB /* utlaxnews_iphone_portrait_icon.png in Resources */,
+				E458BBD314CF4CEC009B7ABB /* Default@2x.png in Resources */,
+				E458BBD414CF4CEC009B7ABB /* Default.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E458BB9714CF1D3C009B7ABB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E458BBAC14CF1D3C009B7ABB /* main.m in Sources */,
+				E458BBB014CF1D3C009B7ABB /* AppDelegate.m in Sources */,
+				E458BBBA14CF1DB1009B7ABB /* ListViewController.m in Sources */,
+				E458BBBD14CF25A2009B7ABB /* RSSChannel.m in Sources */,
+				E458BBC014CF2B87009B7ABB /* RSSItem.m in Sources */,
+				E458BBC314CF4049009B7ABB /* WebViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E458BBA814CF1D3C009B7ABB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E458BBA914CF1D3C009B7ABB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E458BBB114CF1D3C009B7ABB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E458BBB214CF1D3C009B7ABB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E458BBB414CF1D3C009B7ABB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LaxU/LaxU-Prefix.pch";
+				INFOPLIST_FILE = "LaxU/LaxU-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E458BBB514CF1D3C009B7ABB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LaxU/LaxU-Prefix.pch";
+				INFOPLIST_FILE = "LaxU/LaxU-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E458BB9514CF1D3B009B7ABB /* Build configuration list for PBXProject "LaxU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E458BBB114CF1D3C009B7ABB /* Debug */,
+				E458BBB214CF1D3C009B7ABB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E458BBB314CF1D3C009B7ABB /* Build configuration list for PBXNativeTarget "LaxU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E458BBB414CF1D3C009B7ABB /* Debug */,
+				E458BBB514CF1D3C009B7ABB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E458BB9214CF1D3B009B7ABB /* Project object */;
+}
